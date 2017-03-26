@@ -1,0 +1,129 @@
+➜  scholarship-app2 git remote add origin https://github.com/nknordeen/scholarship-app2.git
+fatal: Not a git repository (or any of the parent directories): .git
+➜  scholarship-app2 git init
+Initialized empty Git repository in /home/nick/development/scholarship-app2/.git/
+➜  scholarship-app2 git:(master) ✗ git remote add origin https://github.com/nknordeen/scholarship-app2.git
+➜  scholarship-app2 git:(master) ✗ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	node_modules/
+	package.json
+	server.js
+	views/
+
+nothing added to commit but untracked files present (use "git add" to track)
+➜  scholarship-app2 git:(master) ✗ touch .gitignore
+➜  scholarship-app2 git:(master) ✗ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.gitignore
+	package.json
+	server.js
+	views/
+
+nothing added to commit but untracked files present (use "git add" to track)
+➜  scholarship-app2 git:(master) ✗ git add -A
+➜  scholarship-app2 git:(master) ✗ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   .gitignore
+	new file:   package.json
+	new file:   server.js
+	new file:   views/index.ejs
+
+➜  scholarship-app2 git:(master) ✗ git commit -m "first commit"
+[master (root-commit) 78e0840] first commit
+ 4 files changed, 70 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 package.json
+ create mode 100644 server.js
+ create mode 100644 views/index.ejs
+➜  scholarship-app2 git:(master) git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+➜  scholarship-app2 git:(master)  git push --set-upstream origin master
+Username for 'https://github.com': nknordeen
+Password for 'https://nknordeen@github.com':
+Counting objects: 7, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 1.01 KiB | 0 bytes/s, done.
+Total 7 (delta 0), reused 0 (delta 0)
+To https://github.com/nknordeen/scholarship-app2.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+➜  scholarship-app2 git:(master) git commit -am "test"
+[master fe9789b] test
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+➜  scholarship-app2 git:(master) git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': nknordeen
+Password for 'https://nknordeen@github.com':
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 385 bytes | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local objects.
+To https://github.com/nknordeen/scholarship-app2.git
+   78e0840..fe9789b  master -> master
+➜  scholarship-app2 git:(master)
