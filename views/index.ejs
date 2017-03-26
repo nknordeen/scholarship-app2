@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Amount</th>
+        <th>Description</th>
+      </tr>
+      <% scholarships.forEach(function(item){ %>
+        <tr>
+          <td><%=item.name %></td>
+          <td><%=item.amount %></td>
+          <td><%=item.description %></td>
+        </tr>
+      <% }); %>
+    </table>
+  </body>
+</html>
