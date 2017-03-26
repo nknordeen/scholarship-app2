@@ -11,9 +11,9 @@ var data = [
     description: 'description 1'
   },
   {
-    name: 'scholarship 1',
+    name: 'scholarship 2',
     amount: 3000,
-    description: 'description 1'
+    description: 'description 2'
   },
   {
     name: 'scholarship 3',
