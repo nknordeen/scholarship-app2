@@ -19,6 +19,11 @@ var data = [
     name: 'scholarship 3',
     amount: 5000,
     description: 'description 3'
+  },
+  {
+    name: 'scholarship 4',
+    amount: 10000,
+    description: 'description 4'
   }
 ];
 
