@@ -26,6 +26,6 @@ app.get('/', function(req, res) {
     res.render('index', {scholarships: data});
 });
 
-app.listen(port, function() {
-  console.log(`Listening on port ${port}`);
+app.listen(process.env.PORT || port, function() {
+  console.log(`Listening on port ${process.env.PORT || port}`);
 });
