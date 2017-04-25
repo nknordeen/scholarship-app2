@@ -5,22 +5,26 @@
     <title></title>
   </head>
   <body>
-    <h1>FindMonies Scholarships</h1>
-    <div>
-      <table>
-        <tr>
-          <th>Name</th>
-          <th>Amount</th>
-          <th>Description</th>
-        </tr>
-        <% scholarships.forEach(function(item){ %>
+    <div id="page">
+      <header>
+        <h1>findMonies Scholarships</h1>
+      </header>
+      <div id="table">
+        <table>
           <tr>
-            <td><%=item.name %></td>
-            <td><%=item.amount %></td>
-            <td><%=item.description %></td>
+            <th>Name</th>
+            <th>Amount</th>
+            <th>Description</th>
           </tr>
-        <% }); %>
-      </table>
+          <% scholarships.forEach(function(item){ %>
+            <tr>
+              <td><%=item.name %></td>
+              <td><%=item.amount %></td>
+              <td><%=item.description %></td>
+            </tr>
+          <% }); %>
+        </table>
+      </div>
     </div>
   </body>
 </html>
