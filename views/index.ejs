@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <title></title>
+    <title>findMonies Club</title>
+    <style rel="stylesheet" href="../css/main.css"></style>
   </head>
   <body>
     <div id="page">
@@ -11,13 +11,13 @@
       </header>
       <div id="table">
         <table>
-          <tr id="tableHead">
+          <tr id="table-head">
             <th>Name</th>
             <th>Amount</th>
             <th>Description</th>
           </tr>
           <% scholarships.forEach(function(item){ %>
-            <tr class="tableBody">
+            <tr class="table-body>
               <td><%=item.name %></td>
               <td><%=item.amount %></td>
               <td><%=item.description %></td>
