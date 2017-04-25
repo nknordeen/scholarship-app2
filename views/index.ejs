@@ -11,13 +11,13 @@
       </header>
       <div id="table">
         <table>
-          <tr>
+          <tr id="tableHead">
             <th>Name</th>
             <th>Amount</th>
             <th>Description</th>
           </tr>
           <% scholarships.forEach(function(item){ %>
-            <tr>
+            <tr class="tableBody">
               <td><%=item.name %></td>
               <td><%=item.amount %></td>
               <td><%=item.description %></td>
