@@ -1,9 +1,9 @@
 var express = require('express');
 var app = express();
 var port = 8081;
+app.use(express.static(__dirname + 'views/css'));
 app.set('views', './views');
 app.set('view engine', 'ejs');
-
 var data = [
   {
     name: 'scholarship 1',
