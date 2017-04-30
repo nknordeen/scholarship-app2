@@ -36,12 +36,14 @@
             <th>Name</th>
             <th>Amount</th>
             <th>Description</th>
+            <th>Link</th>
           </tr>
           <% scholarships.forEach(function(item){ %>
             <tr class="table-body">
               <td><%=item.name %></td>
               <td><%=item.amount %></td>
               <td><%=item.description %></td>
+              <td><a href="<%=item.link %>"><%=item.link %></a></td>
             </tr>
           <% }); %>
         </table>

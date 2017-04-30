@@ -8,7 +8,8 @@ var data = [
   {
     name: 'Crescent Electric Supply Company\'s \"Energy Efficient\" Scholarship',
     amount: 1000,
-    description: 'If you are currently enrolled in college or headed there in 2017 and want to win a $1000 scholarship to help cover expenses, consider entering the Crescent Electric College Scholarship Contest. Crescent Electric Supply Company will award a $1000 scholarship to a highly motivated student who can thoughtfully share a photo of their effort to minimize energy usage on social media.'
+    description: 'If you are currently enrolled in college or headed there in 2017 and want to win a $1000 scholarship to help cover expenses, consider entering the Crescent Electric College Scholarship Contest. Crescent Electric Supply Company will award a $1000 scholarship to a highly motivated student who can thoughtfully share a photo of their effort to minimize energy usage on social media.',
+    link: 'http://www.cesco.com/content/EnergySaverScholarship'
   }
 ];
 
