@@ -6,24 +6,9 @@ app.set('views', './views');
 app.set('view engine', 'ejs');
 var data = [
   {
-    name: 'scholarship 1',
-    amount: 3000,
-    description: 'description 1'
-  },
-  {
-    name: 'scholarship 2',
-    amount: 3000,
-    description: 'description 2'
-  },
-  {
-    name: 'scholarship 3',
-    amount: 5000,
-    description: 'description 3'
-  },
-  {
-    name: 'scholarship 4',
-    amount: 10000,
-    description: 'description 4'
+    name: 'Crescent Electric Supply Company\'s \"Energy Efficient\" Scholarship',
+    amount: 1000,
+    description: 'If you are currently enrolled in college or headed there in 2017 and want to win a $1000 scholarship to help cover expenses, consider entering the Crescent Electric College Scholarship Contest. Crescent Electric Supply Company will award a $1000 scholarship to a highly motivated student who can thoughtfully share a photo of their effort to minimize energy usage on social media.'
   }
 ];
 
